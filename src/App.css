@@ -1,0 +1,14 @@
+.btn {
+  margin: 10px;
+  width: 100px;
+}
+
+.date {
+  font-size: 30px;
+}
+
+.container {
+  width: 550px;
+  text-align: center;
+  margin-top: 50px;
+}
