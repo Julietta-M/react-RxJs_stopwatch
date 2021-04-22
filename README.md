@@ -1,17 +1,13 @@
-# React list of goods
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_list-of-goods/)
-- Follow the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
+[DEMO LINK](https://julietta-m.github.io/react-RxJs_stopwatch/)
 
-## Tasks
-1. At first show a button `Start` on the page
-1. After clicking the button show a `GoodsList` (ul > li) with the given goods and hide the button
-1. Add `Reverse` button to show the goods in reversed order
-1. Add `Sort alphabetically` button to show the goods in alphabetical order
-1. Add `Reset` button to show the goods in the initial order
-1. Add `Sort by length` button to show the goods ordered by name length
-
-## (*) Advanced tasks (require understanding of Forms in React)
-1. Add `<select>` with numbers from 1 to 10. (1 is default). All the previous buttons
-  should now show only goods having length >= than the selected value. When you change the
-  value the items should be immediately rerendered accordingly.
-1. `Reset` button should set the default value to the `<select>`
+Реализовать секундомер, который подсчитывает время в формате «HH: MM: SS»
+Секундомер должен иметь следующие кнопки:
+* «Start / Stop» - запуск / остановка отсчета времени, останавливает и обнуляет значение таймера.
+* «Wait» - работает на двойной клик (время между нажатиями не более 300 мс!) таймер должен прекратить отсчет времени; если после него нажать старт, то возобновляется отсчет.
+* «Reset» - сброс секундомера  на 0.  Обнуляет секундомер и снова начинает отсчет.
+Требования:
+ - используйте Observables в коде
+ - RxJS подход
+ - функциональный подход
+ - нам важнее всего увидеть Ваше умение писать код
+- 300 млс – это не DoubleClick
